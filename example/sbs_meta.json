@@ -1,0 +1,31 @@
+{
+  "searchDir": "raw",
+  "searchPattern": "*.JPG",
+  "ncols": "2",
+  "instanceList": [
+    {
+      "title": "raw",
+      "dirPathname": "raw",
+      "suffix": "",
+      "extension": ".JPG"
+    },
+    {
+      "title": "processed",
+      "dirPathname": "processed",
+      "suffix": "_out",
+      "extension": ".jpg"
+    },
+    {
+      "title": "raw copy",
+      "dirPathname": "raw",
+      "suffix": "",
+      "extension": ".JPG"
+    },
+    {
+      "title": "processed copy",
+      "dirPathname": "processed",
+      "suffix": "_out",
+      "extension": ".jpg"
+    }
+ ]
+}
