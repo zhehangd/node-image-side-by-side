@@ -1,0 +1,55 @@
+.file-list {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  background-color: #555;
+}
+
+.sbs-main {
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  right: 0;
+  background-color: #111;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly
+}
+
+.sbs-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly
+}
+
+.sbs-element {
+  display: inline-block;
+}
+
+.sbs-element-box {
+  border: 3px solid #FFF;
+}
+
+.sbs-element-box.unselected {
+  border: 3px solid #222;
+}
+
+.sbs-element-box.selected {
+  border: 3px solid #29E;
+}
+
+.sbs-title {
+  width: width:100%;
+  text-align: center;
+  color: #FFF;
+  background-color: #333;
+}
+
+.sbs-image {
+  width:100%; 
+  height:100%; 
+  object-fit:contain;
+  display: block; // remove gap at the bottom
+}
